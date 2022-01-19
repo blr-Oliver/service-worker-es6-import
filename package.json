@@ -1,0 +1,13 @@
+{
+  "name": "service-worker-sandbox",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "start http-server -p9002 -c-1 --cors Service-Worker -S -C cert/localhost.pem -K ./cert/localhost.private.key ./src"
+  },
+  "author": "Vasily Liaskovsky <vasily.liaskovsky@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "http-server": "14.1.0"
+  }
+}

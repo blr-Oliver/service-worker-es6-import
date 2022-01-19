@@ -1,0 +1,27 @@
+body {
+    padding: 8px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: left;
+    text-indent: 0.5em;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 0.5em;
+}
+
+p#output {
+    padding: 4px;
+}
+
+img#square {
+    margin: 8px;
+    border: 1px solid #eee;
+    float: left;
+}
